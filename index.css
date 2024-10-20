@@ -1,0 +1,126 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav
+{
+    ul 
+    {
+        display: flex;
+        list-style-type: none;
+    }
+    li
+    {
+        padding-right: 25px;
+        cursor: pointer;
+    }
+}
+/* Custom styles for the restaurant card */
+.card {
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(0.95);  /* Decrease the size to 95% on hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 5px 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+
+  .restuarents_container{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+
+  .top-restaurants-btn {
+    margin-left: 83%;
+    font-size: 18px;           /* Slightly larger font size */
+    padding: 12px 24px;        /* Add padding for top/bottom and left/right */
+    background-color: #28a745; /* Bootstrap's 'success' green color */
+    color: white;              /* Text color */
+    border: none;              /* Remove default border */
+    border-radius: 8px;        /* Rounded corners */
+    cursor: pointer;           /* Make the button clickable */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 600;          /* Slightly bolder text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .top-restaurants-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05);    /* Slightly increase size on hover */
+  }
+  
+  .top-restaurants-btn:active {
+    transform: scale(0.98);    /* Slightly shrink on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+  }
+
+  .shimmer_card
+  {
+    width: 290px;
+    height: 430px;
+    background-color:  #f0f0f0;;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out; 
+  }
+
+  .shimmer_card:hover {
+    transform: scale(0.95);  /* Decrease the size to 95% on hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .shimmer_conatiner
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .parent_shimmer
+  {
+margin-top: 40px;
+  }
+
+  .logo
+  {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 59;
+    width: 59;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }

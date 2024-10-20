@@ -1,15 +1,17 @@
 import React from "react"
 import ReactDOM from "react-dom/client";
- const Frst=()=>
+import Navbar from "./components/Navbar";
+import Body from "./components/Body";
+ const App=()=>
 {
     return (<>
-    <div>
-        <h4> Swiggy</h4>
-    </div>
+    <Navbar/>
+
+    <Body/>
     </>);
 
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Frst/>);
+root.render(<App/>);
